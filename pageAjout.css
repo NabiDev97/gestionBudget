@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+#main-container{
+    display: flex;
+    /* background-color: aqua; */
+    width: 90%;
+     align-items: center;
+    height: 900px;
+    flex-direction: column;
+    margin: 15px auto;
+    flex-wrap:nowrap;
+    
+
+}
+/* Style de l'entete */
+      /* style de l'entete */
+      #entete{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 150px;
+        height: 20%;
+        /* background-color: antiquewhite; */
+        
+       }
+       #B-style-color{
+        font-size: 45px;
+        color: transparent;
+        display: inline-block;
+        background-image: linear-gradient(to bottom, #0C5E69,white 70%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       }
+       h1{
+        background: linear-gradient(to bottom, #D1C000,#0C5E69 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       }
+       h4{
+        display: inline-block;
+         color: #0C5E69;
+       }
+
+
+#pageAjoutTitle{
+    /* background-color: blue; */
+    height: 8%;
+}
+.formulaire{
+    /* background-color: yellow; */
+    height: 35%;
+    width: 40%;
+}
+input{
+    width: 70%;
+    height: 35px;
+    margin-top: 15px;
+    padding-left: 15px;
+    color:black;
+}
+#submit{
+    display: inline-block;
+    background-color: #0C5E69;
+    color: whitesmoke;
+   }
+   form{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(123, 116, 116); */
+    width: 98%;
+    height: 90%;
+    margin: 2px auto;
+    justify-content: center;
+    align-items: center;
+   }
+   h3{
+    display: inline-block;
+    margin-left: 0%;
+    width: 70%;
+    margin-top: 15px;
+    /* background-color: yellow; */
+   }
+   
